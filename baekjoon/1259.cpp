@@ -18,13 +18,13 @@ int main() {
 		if (num[0] == '0')
 			break;
 
-		if (len % 2) { // Ȧ��
+		if (len % 2) { // 홀수
 			for (int i = 0; i < len / 2 + 1; i++) {
 				if (num[i] != num[len - 1 - i])
 					pal = false;
 			}
 		}
-		else { // ¦��
+		else { // 짝수
 			for (int i = 0; i < len / 2; i++) {
 				if (num[i] != num[len - 1 - i])
 					pal = false;
